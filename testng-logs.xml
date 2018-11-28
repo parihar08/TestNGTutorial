@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ReportsAndLogs TestSuite" preserve-order="true" parallel="false">
+	<test name="Application Test">
+		<classes>
+			<class name= "testclasses.TestNG_ReportsAndLogs"></class>
+		</classes>
+	</test>
+</suite>

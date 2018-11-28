@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Listeners TestSuite" preserve-order="true" parallel="false">
+	<listeners>
+		<listener class-name="listenerspackage.CustomListeners"></listener>
+	</listeners>
+	<test name="Application Test1">
+		<classes>
+			<class name= "testclasses.TestNG_ListenersTest1"></class>
+		</classes>
+	</test>
+	<test name="Application Test2">
+		<classes>
+			<class name= "testclasses.TestNG_ListenersTest2"></class>
+		</classes>
+	</test>
+</suite>
